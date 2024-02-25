@@ -1,10 +1,17 @@
-# Title (replace with your title)
+# Matching a Hex Value
 
-Introductory paragraph (replace this with your text)
+
+
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This Regex Tutorial is about Matching a Hex Value. A Hex Value is short for a hexadecimal value, a number displayed in the hexadecimal system. This system uses 16 symbols to represent number values. They are A-F or a-f for the last 6 values which are numbers 10-15. Numbers 0-9 represent the first 10. In the hexadecimal system each number place represents to the 16th power and each decimal to the tenth. An example is that 3A would be 3 to the 16th = 48 + A which would be 10 to the 16th = 160 giving 208
+
+[\dA-Fa-f]?
+
+
+
+
 
 ## Table of Contents
 
@@ -23,10 +30,15 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+In hexadecimals there is no standardized anchor but they are used to destinguish patterns in code. One example would be that ("^") would display the start of the data
 
 ### Quantifiers
+In hexadecimals quantifiers use the hexadecimal characters of 0-9 and A-F(a-f) not on a string. 
+
 
 ### OR Operator
+In hexadecimals OR Operators are used to connect ranges and patterns of hexadecimal digits. 
+
 
 ### Character Classes
 
@@ -45,5 +57,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ### Look-ahead and Look-behind
 
 ## Author
+
+Emily is a student at Rutgers University currently enrolled in their Full-Stack Coding Bootcamp. 
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
