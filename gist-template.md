@@ -1,16 +1,9 @@
 # Matching a Hex Value
-
-
+Matching a hexadecimal value can be done without the Ox prefix but the Ox prefix makes it easier. This is because without the OX prefix \b(?:[hexadecimal]{number of hexadecimals digits to match together}+\b) must be used 
 
 
 ## Summary
-
-This Regex Tutorial is about Matching a Hex Value. A Hex Value is short for a hexadecimal value, a number displayed in the hexadecimal system. This system uses 16 symbols to represent number values. They are A-F or a-f for the last 6 values which are numbers 10-15. Numbers 0-9 represent the first 10. In the hexadecimal system each number place represents to the 16th power and each decimal to the tenth. An example is that 3A would be 3 to the 16th = 48 + A which would be 10 to the 16th = 160 giving 208
-
-[\dA-Fa-f]?
-
-
-
+This Regex shows the breakdown of matching Hexadecimal values together without the Ox prefix. 
 
 
 ## Table of Contents
@@ -30,19 +23,22 @@ This Regex Tutorial is about Matching a Hex Value. A Hex Value is short for a he
 ## Regex Components
 
 ### Anchors
-In hexadecimals there is no standardized anchor but they are used to destinguish patterns in code. One example would be that ("^") would display the start of the data
+ 
 
 ### Quantifiers
-In hexadecimals quantifiers use the hexadecimal characters of 0-9 and A-F(a-f) not on a string. 
+
 
 
 ### OR Operator
-In hexadecimals OR Operators are used to connect ranges and patterns of hexadecimal digits. 
+
 
 
 ### Character Classes
 
+
+
 ### Flags
+
 
 ### Grouping and Capturing
 
@@ -58,6 +54,6 @@ In hexadecimals OR Operators are used to connect ranges and patterns of hexadeci
 
 ## Author
 
-Emily is a student at Rutgers University currently enrolled in their Full-Stack Coding Bootcamp. 
+Emily is a student at Rutgers University currently enrolled in their Full-Stack Coding BootCamp. Her favorite part of coding is the CSS. She opted for Hexadecimal because of its mix of numbers and letters which she finds interesting nad enjoys for picking specific colors. 
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+https://github.com/EmilyCassel
