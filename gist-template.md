@@ -64,11 +64,14 @@ Lazy match matches as little as possible which is why its called lazy, it does a
 Greedy is the opposite, matching as much as it can. Hexadecimal matching tends to be greedy. 
 
 ### Boundaries
+// keeps everything inside together 
 
 
 ### Back-references
+Not used in hexadecimal matching 
 
 ### Look-ahead and Look-behind
+Not used in hexadecimal matching 
 
 ## Author
 
